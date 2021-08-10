@@ -6,7 +6,7 @@ module REST
         base_uri CONFIG["base_uri"]
 
         def get_users
-            self.class.get("?q=Osasco,BR&appid=050c10d7156c196a31c7d7d82780d816&units=metric")
+            self.class.get("?q=Fortaleza,BR&appid=050c10d7156c196a31c7d7d82780d816&units=metric")
         end    
         
         def get_user
